@@ -113,7 +113,9 @@ class MechanicView(APIView):
         )
         return Response(response_data, status=status.HTTP_200_OK)
 
-
+"""
+ciandt-crapi-project
+"""
 class ReceiveReportView(APIView):
     """
     View to receive report from contact mechanic feature

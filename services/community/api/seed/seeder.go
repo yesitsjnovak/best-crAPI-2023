@@ -56,11 +56,11 @@ var posts = []models.Post{
 		Content: "Hello world 2",
 	},
 	models.Post{
-		Title:   "Title 3",
-		Content: "Hello world 3",
+		Title:   "Titulo 4",
+		Content: "ciandt-crapi-project",
 	},
 }
-var emails = [3]string{"adam007@example.com", "pogba006@example.com", "robot001@example.com"}
+var emails = [3]string{"adam007@example.com", "githubleaktest@fakedoorscompany.com", "robot001@example.com"}
 
 //
 func LoadMongoData(mongoClient *mongo.Client, db *gorm.DB) {
